@@ -135,8 +135,7 @@ for jsonPath, imagePath in zip(jsonPaths, imagePaths):
 	jsonName = jsonPath.split("/")[-1]
 
 	count += 1
-	print("[INFO] Processing {}/{} files ({}/{})".format(jsonName, imageName, 
-													     count, len(jsonPaths)))
+	print("[INFO] Processing {}/{} files ({}/{})".format(jsonName, imageName, count, len(jsonPaths)))
 
 	assert imageName.split(".")[0] == jsonName.split(".")[0]
 

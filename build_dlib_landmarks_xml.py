@@ -1,3 +1,6 @@
+# USAGE
+# python build_dlib_landmarks_xml.py --dataset dataset/ --color gray --set val --vis 1
+
 # import the necessary packages
 from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.dom import minidom

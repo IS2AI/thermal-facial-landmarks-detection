@@ -1,3 +1,6 @@
+# USAGE
+# python visualize_dataset.py --dataset dataset/ --color iron --set test
+
 # import the necessary packages
 from imutils import paths 
 import argparse
@@ -46,7 +49,7 @@ for imagePath, jsonPath in zip(imagePaths, jsonPaths):
 	for shape in data['shapes']:
 		if shape['label'] == 'face':
 			# extract coordinates of the bounding box
-			# and convert to int
+			# and convert to int type
 			[[xs, ys], [xe, ye]] = shape['points']
 			(xs, ys, xe, ye) = (int(xs), int(ys), int(xe), int(ye))
 

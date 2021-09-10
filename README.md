@@ -3,6 +3,11 @@ Download the repository:
 ```
 git-clone https://github.com/IS2AI/thermal-facial-landmarks-detection.git
 ```
+## Requirements:
+To install the necessary packages, we suggest these two tutorials:
+1. [How to install TensorFlow 2.0 on Ubuntu](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/).
+2. [Install dlib (the easy, complete guide)](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/).
+
 ## Data preparation
 Download the dataset from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
 
@@ -35,9 +40,9 @@ python test_dlib_predictor.py --testing dataset/gray/test/dlib_landmarks_test.xm
 
 ## Training and testing the U-net model:
 
-## Pre-trained models
+## Pre-trained models:
 1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
-2. Copy the pre-trained models to /thermal-facial-landmarks-detection/models directory.
+2. Put the pre-trained models inside `/thermal-facial-landmarks-detection/models` directory.
 ## dlib shape predictor
 - To make predictions on images:
 ```

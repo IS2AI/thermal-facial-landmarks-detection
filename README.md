@@ -10,6 +10,7 @@ git-clone https://github.com/IS2AI/thermal-facial-landmarks-detection.git
 - Pandas
 - dlib
 - Tensorflow 2
+
 To install the necessary packages properly, we ask you to walk through these two tutorials:
 1. [How to install TensorFlow 2.0 on Ubuntu](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/).
 2. [Install dlib (the easy, complete guide)](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/).

@@ -1,4 +1,6 @@
 # SF-TL54: Annotated Thermal Facial Landmark Dataset with Visual Pairs
+<img src= "https://github.com/IS2AI/thermal-facial-landmarks-detection/blob/main/demo/demo.gif">
+
 Download the repository:
 ```
 git-clone https://github.com/IS2AI/thermal-facial-landmarks-detection.git

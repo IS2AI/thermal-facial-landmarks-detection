@@ -25,7 +25,7 @@ python build_dlib_landmarks_xml.py --dataset dataset/ --color gray --set val
 python build_dlib_landmarks_xml.py --dataset dataset/ --color gray --set test
 ```
 
-- Generate training, validation, and testing ground-truth masks for U-net
+- To generate training, validation, and testing ground-truth masks for U-net, open the `unet_generate_masks.ipynb` notebook and run cells.
 
 ## Training and testing dlib shape predictor
 - To manually tune parameters of the model:
@@ -46,6 +46,7 @@ python test_dlib_predictor.py --testing dataset/gray/test/dlib_landmarks_test.xm
 ```
 
 ## Training and testing the U-net model
+For training and testing the U-net model, open the `train_unet_predictor.ipynb` notebook and run cells.
 
 ## Pre-trained models
 1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).

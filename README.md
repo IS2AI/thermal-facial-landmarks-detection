@@ -3,7 +3,7 @@ Download the repository:
 ```
 git-clone https://github.com/IS2AI/thermal-facial-landmarks-detection.git
 ```
-## Requirements:
+## Requirements
 - imutils
 - OpenCV
 - NumPy
@@ -45,9 +45,9 @@ python dlib_global_optimizer.py
 python test_dlib_predictor.py --testing dataset/gray/test/dlib_landmarks_test.xml --model models/dlib_landmarks_predictor.dat
 ```
 
-## Training and testing the U-net model:
+## Training and testing the U-net model
 
-## Pre-trained models:
+## Pre-trained models
 1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
 2. Put the pre-trained models inside `/thermal-facial-landmarks-detection/models` directory.
 ## dlib shape predictor

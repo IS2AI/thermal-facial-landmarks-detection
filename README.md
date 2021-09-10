@@ -53,7 +53,7 @@ For training and testing the U-net model, open the `train_unet_predictor.ipynb` 
 ## Pre-trained models
 1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
 2. Put the pre-trained models inside `/thermal-facial-landmarks-detection/models` directory.
-## dlib shape predictor
+3. dlib shape predictor
 - To make predictions on images:
 ```
 python dlib_predict_image.py --images dataset/gray/test/images/ --models  models/ --upsample 1
@@ -62,7 +62,7 @@ python dlib_predict_image.py --images dataset/gray/test/images/ --models  models
 ```
 python dlib_predict_video.py --input video/2_0.avi --models  models/ --upsample 1 --output video/output.mp4
 ```
-## U-net
+4. U-net
 ```
 python unet_predict_image.py --dataset dataset/gray/test --model  models/ 
 ```

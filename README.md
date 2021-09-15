@@ -56,11 +56,11 @@ For training and testing the U-net model, open the `train_unet_predictor.ipynb` 
 3. **dlib shape predictor**
 - Make predictions on images:
 ```
-python dlib_predict_image.py --images dataset/gray/test/images/ --models  models/ --upsample 1
+python dlib_predict_image.py --images PATH_TO_IMAGES --models  models/ --upsample 1
 ```
 - Make predictions on a video:
 ```
-python dlib_predict_video.py --input video/2_0.avi --models  models/ --upsample 1 --output video/output.mp4
+python dlib_predict_video.py --input PATH_TO_VIDEO --models  models/ --upsample 1 --output output.mp4
 ```
 4. **U-net model**
 ```

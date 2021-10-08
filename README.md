@@ -68,8 +68,25 @@ python unet_predict_image.py --dataset dataset/gray/test --model  models/
 ```
 
 
+## For dlib face detection model (HOG + SVM)
+-Training the model:
+```
+python train_dlib_face_detector.py --training dataset/gray/train/dlib_landmarks_train.xml --validation dataset/gray/val/dlib_landmarks_val.xml
+```
+- Make predictions on images:
+```
+python dlib_face_detector.py --images dataset/gray/test/images --detector models/dlib_face_detector.svm
+```
 
+## To visualize dataset
+- Thermal images with bounding boxes and landmarks:
+```
+python visualize_dataset.py --dataset dataset/ --color iron --set train
+```
+- Thermal-Visual pairs
+```
+python visualize_image_pairs.py --dataset dataset/ --color iron --set train
 
-
+```
 
 

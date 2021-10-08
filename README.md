@@ -69,7 +69,7 @@ python unet_predict_image.py --dataset dataset/gray/test --model  models/
 
 
 ## For dlib face detection model (HOG + SVM)
--Training the model:
+- Training the model:
 ```
 python train_dlib_face_detector.py --training dataset/gray/train/dlib_landmarks_train.xml --validation dataset/gray/val/dlib_landmarks_val.xml
 ```

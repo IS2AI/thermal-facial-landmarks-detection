@@ -19,7 +19,7 @@ ap.add_argument("-i", "--images", required=True,
 	help="path to the images")
 ap.add_argument("-d", "--detector", required=True,
 	help="path to the face detection model")
-ap.add_argument("-u", "--upsample", type=int, default=0,
+ap.add_argument("-u", "--upsample", type=int, default=1,
 	help="# of upsampling times")
 args = vars(ap.parse_args())
 

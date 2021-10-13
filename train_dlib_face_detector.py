@@ -63,7 +63,7 @@ options.C = 7
 options.upsample_limit = 0
 
 # Tell the code how many CPU cores your computer has for the fastest training.
-options.num_threads = 8 #multiprocessing.cpu_count()
+options.num_threads = multiprocessing.cpu_count()
 options.be_verbose = True
 
 # This function does the actual training.  It will save the final detector to

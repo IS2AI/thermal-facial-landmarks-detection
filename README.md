@@ -1,6 +1,7 @@
 # SF-TL54: Thermal Facial Landmark Dataset with Visual Pairs
 The dataset contains 2,556 thermal-visual image pairs of 142 subjects with manually annotated face bounding boxes and 54 facial landmarks. The dataset was constructed from our large-scale SpeakingFaces dataset. 
-<img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/land_conf.png" width="464" height="348"> 
+
+<img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/land_conf.png"> 
 
 Download the repository:
 ```
@@ -52,6 +53,8 @@ python test_dlib_predictor.py --testing dataset/gray/test/dlib_landmarks_test.xm
 For training and testing the U-net model, open the `train_unet_predictor.ipynb` notebook and run cells.
 
 ## Pre-trained models
+<img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/demo.gif" width="464" height="348"> 
+
 1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
 2. Put the pre-trained models inside `/thermal-facial-landmarks-detection/models` directory.
 3. **dlib shape predictor**

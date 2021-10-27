@@ -93,6 +93,10 @@ python visualize_image_pairs.py --dataset dataset/ --color iron --set train
 
 ```
 
+## Video tutorials
+- [Face detection: Thermal domain.](https://www.youtube.com/watch?v=tzgGPVQwqq8&t=10s)
+- [Facial landmark detection: Thermal domain.](https://www.youtube.com/watch?v=_7e3N3pMYDg&t=63s)
+
 ## If you use the dataset/source code/pre-trained models in your research, please cite our work:
 ```
 A. Kuzdeuov, D. Koishigarina, D. Aubakirova, S. Abushakimova, and H. A. Varol, 

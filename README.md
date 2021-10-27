@@ -1,5 +1,5 @@
 # SF-TL54: Thermal Facial Landmark Dataset with Visual Pairs
-The dataset contains 2,556 thermal-visual image pairs of 142 subjects with manually annotated face bounding boxes and 54 facial landmarks. The dataset was constructed from our large-scale SpeakingFaces dataset. 
+The dataset contains 2,556 thermal-visual image pairs of 142 subjects with manually annotated face bounding boxes and 54 facial landmarks. The dataset was constructed from our large-scale [SpeakingFaces dataset](https://github.com/IS2AI/SpeakingFaces). 
 
 <img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/land_conf.png"> 
 

@@ -9,7 +9,7 @@ The dataset contains 2,556 thermal-visual image pairs of 142 subjects with manua
 
 ## Download the repository:
 ```
-git-clone https://github.com/IS2AI/thermal-facial-landmarks-detection.git
+git clone https://github.com/IS2AI/thermal-facial-landmarks-detection.git
 ```
 ## Requirements
 - imutils

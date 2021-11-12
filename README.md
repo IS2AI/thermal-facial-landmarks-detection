@@ -103,9 +103,15 @@ python visualize_image_pairs.py --dataset dataset/ --color iron --set train
 
 ## If you use the dataset/source code/pre-trained models in your research, please cite our work:
 ```
-A. Kuzdeuov, D. Koishigarina, D. Aubakirova, S. Abushakimova, and H. A. Varol, 
-“SF-TL54: A Thermal Facial Landmark Dataset with Visual Pairs.” 
-Institute of Smart Systems and Artificial Intelligence, 2021, doi: 10.48333/EZ7P-HS66.
+@misc{https://doi.org/10.48333/ez7p-hs66,
+  doi = {10.48333/EZ7P-HS66},
+  url = {https://issai.nu.edu.kz/sf-tl54/},
+  author = {Kuzdeuov, Askat and Koishigarina, Darina and Aubakirova, Dana and Abushakimova, Saniya and Varol, Huseyin Atakan},
+  keywords = {FOS: Computer and information sciences},
+  title = {SF-TL54: A Thermal Facial Landmark Dataset with Visual Pairs},
+  publisher = {Institute of Smart Systems and Artificial Intelligence},
+  year = {2021}
+}
 ```
 
 

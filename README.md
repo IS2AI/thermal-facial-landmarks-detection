@@ -3,6 +3,9 @@ The dataset contains 2,556 thermal-visual image pairs of 142 subjects with manua
 
 <img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/example.png"> 
 
+## Link to the paper
+[SF-TL54: A Thermal Facial Landmark Dataset with Visual Pairs](https://ieeexplore.ieee.org/abstract/document/9708901)
+
 ## The facial landmarks are ordered as follows:
 
 <img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/land_conf.png"> 

@@ -62,6 +62,8 @@ For training and testing the U-net model, open the `train_unet_predictor.ipynb` 
 ## Pre-trained models
 <img src= "https://raw.githubusercontent.com/IS2AI/thermal-facial-landmarks-detection/main/figures/demo.gif" width="464" height="348"> 
 
+To detect faces, we trained the HOG+SVM based face detection model on our dataset. If you need more robust model then please check our [TFW: Annotated Thermal Faces in the Wild](https://github.com/IS2AI/TFW) project.
+
 1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
 2. Put the pre-trained models inside `/thermal-facial-landmarks-detection/models` directory.
 3. **dlib shape predictor**
@@ -73,6 +75,7 @@ python dlib_predict_image.py --images PATH_TO_IMAGES --models  models/ --upsampl
 ```
 python dlib_predict_video.py --input PATH_TO_VIDEO --models  models/ --upsample 1 --output output.mp4
 ```
+
 4. **U-net model**
 ```
 python unet_predict_image.py --dataset dataset/gray/test --model  models/ 

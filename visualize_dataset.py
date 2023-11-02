@@ -29,11 +29,11 @@ imagePaths = list(paths.list_files(os.path.join(args["dataset"], args["color"],
 	args["set"], "images")))
 imagePaths = sorted(imagePaths)
 
-count = 1;
+count = 1
 # loop over the files
 for imagePath, jsonPath in zip(imagePaths, jsonPaths):
 	print("[INFO] Processing {}/{} files ({}/{})".format(imagePath.split("/")[-1], jsonPath.split("/")[-1], count, len(jsonPaths)))
-	count += 1;
+	count += 1
 
 	# open the json file 
 	f = open(jsonPath,) 

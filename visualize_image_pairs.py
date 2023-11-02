@@ -29,11 +29,11 @@ thrPaths = list(paths.list_images(os.path.join(args["dataset"], args["color"],
 	args["set"], "images")))
 thrPaths = sorted(thrPaths)
 
-count = 1;
+count = 1
 # loop over the files
 for thrPath, rgbPath in zip(thrPaths, rgbPaths):
 	print("[INFO] Processing {}/{} files ({}/{})".format(rgbPath.split("/")[-1], thrPath.split("/")[-1], count, len(rgbPaths)))
-	count += 1;
+	count += 1
 
 	# load the images
 	thr_image = cv2.imread(thrPath)

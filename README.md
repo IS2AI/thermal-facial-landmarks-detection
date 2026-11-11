@@ -27,7 +27,7 @@ To install the necessary packages properly, we ask you to walk through these two
 2. [Install dlib (the easy, complete guide)](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/).
 
 ## Data preparation
-Download the dataset from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
+Download the dataset from [Hugging Face](https://huggingface.co/datasets/issai/SFTL54).
 
 - Generate training, validation, and testing XML files for dlib shape predictor
 ```
@@ -64,7 +64,7 @@ For training and testing the U-net model, open the `train_unet_predictor.ipynb` 
 
 To detect faces, we trained the HOG+SVM based face detection model on our dataset. If you need more robust model then please check our [TFW: Annotated Thermal Faces in the Wild](https://github.com/IS2AI/TFW) project.
 
-1. Download the models from [google drive](https://drive.google.com/drive/folders/1XLehM5DYqLqiAsteO_h1PYZnavcCNOcR?usp=sharing).
+1. Download the models from [Hugging Face](https://huggingface.co/datasets/issai/SFTL54).
 2. Put the pre-trained models inside `/thermal-facial-landmarks-detection/models` directory.
 3. **dlib shape predictor**
 - Make predictions on images:
